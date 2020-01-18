@@ -15,7 +15,7 @@ namespace StudentsAPI.V2.Controllers
     [Route("api/v{version:apiVersion}/[controller]")]
     [Route("api/[controller]")]
     [ValidateStudentId]
-    [Authorize]
+    //[Authorize]
     [ApiController]
     public class StudentsController : ControllerBase
     {

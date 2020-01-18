@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsAPIClient", "Studen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsAPI.Core.Entities", "StudentsAPI.Core.Entities\StudentsAPI.Core.Entities.csproj", "{F710B40A-B7EB-45C6-889C-5A13BCAD1D29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsAPI.IntegrationTests", "StudentsAPI.IntegrationTests\StudentsAPI.IntegrationTests.csproj", "{AC35121E-4E4E-4DB9-BE33-441A98DB58FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsAPI.IntegrationTests", "StudentsAPI.IntegrationTests\StudentsAPI.IntegrationTests.csproj", "{AC35121E-4E4E-4DB9-BE33-441A98DB58FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsAPIClient.IntegrationTests", "StudentsAPIClient.IntegrationTests\StudentsAPIClient.IntegrationTests.csproj", "{46654AA6-A261-457B-9431-BC5FF49AC200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AC35121E-4E4E-4DB9-BE33-441A98DB58FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC35121E-4E4E-4DB9-BE33-441A98DB58FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC35121E-4E4E-4DB9-BE33-441A98DB58FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46654AA6-A261-457B-9431-BC5FF49AC200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46654AA6-A261-457B-9431-BC5FF49AC200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46654AA6-A261-457B-9431-BC5FF49AC200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46654AA6-A261-457B-9431-BC5FF49AC200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

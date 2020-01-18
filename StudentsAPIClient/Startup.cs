@@ -19,6 +19,7 @@ namespace StudentsAPIClient
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //services.AddHttpClient<HttpClient>();
             services.AddHttpClient<StudentsAPIService>();
         }
 
