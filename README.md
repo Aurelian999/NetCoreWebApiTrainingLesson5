@@ -1,2 +1,2 @@
 # NetCoreWebApiTrainingLesson5
-Project for lesson 4
+Project for lesson 5
